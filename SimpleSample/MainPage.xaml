@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SimpleSample.MainPage">
+
+  <VerticalStackLayout>
+<Grid x:Name="tabview" FlowDirection="RightToLeft">
+<ScrollView x:Name="tabScroll" Orientation="Horizontal" Scrolled="tabScroll_Scrolled">
+<HorizontalStackLayout x:Name="hstack">
+<Grid x:Name="grid1">
+<Label Text="text 7" BackgroundColor="Red" HeightRequest="48" WidthRequest="200" />
+</Grid>
+<Grid x:Name="grid2">
+<Label Text="Text 8" BackgroundColor="Blue" HeightRequest="48" WidthRequest="200" />
+</Grid>
+<Grid x:Name="grid3">
+<Label Text="Text 6" BackgroundColor="Red" HeightRequest="48" WidthRequest="200" />
+</Grid>
+<Grid x:Name="grid4">
+<Label Text="Text 5" BackgroundColor="Blue" HeightRequest="48" WidthRequest="200" />
+</Grid>
+<Grid x:Name="grid5">
+<Label Text="Text 4" BackgroundColor="Red" HeightRequest="48" WidthRequest="200" />
+</Grid>
+<Grid x:Name="grid6">
+<Label Text="Text 3" BackgroundColor="Blue" HeightRequest="48" WidthRequest="200" />
+</Grid>
+<Grid x:Name="grid7">
+<Label Text="Text2" BackgroundColor="Red" HeightRequest="48" WidthRequest="200" />
+</Grid>
+<Grid x:Name="grid8">
+<Label Text="Test1" BackgroundColor="Blue" HeightRequest="48" WidthRequest="200" />
+</Grid>
+</HorizontalStackLayout>
+</ScrollView>
+</Grid>
+</VerticalStackLayout>
+
+</ContentPage>
